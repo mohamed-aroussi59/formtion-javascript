@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<p id="color" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia deleniti illo in magni sequi laborum nam maiores eveniet suscipit, consequatur eum architecto reprehenderit asperiores officiis sapiente neque velit et!</p>
+<button value="clik" onclick="valider()">clicker</button>
+
+<p id="sicle"  onmouseenter="zoom()" onmouseout="pos()" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia deleniti illo in magni sequi laborum nam maiores eveniet suscipit, consequatur eum architecto reprehenderit asperiores officiis sapiente neque velit et!</p>
+
+<span id="ecrirre" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia deleniti illo?</span>
+<span id="text"></span>
+<button value="clik" onclick="t()">clicker</button>
+<script>
+
+
+
+function  t()
+{
+
+    document.getElementById("text").innerHTML= "hallo"  ;
+    document.getElementById("text").style.color="green";
+    document.getElementById("text").style.fontSize="30px";
+}
+
+function  valider()
+{
+
+    document.getElementById("color").style.color="green";
+}
+function  zoom()
+{
+    document.getElementById("sicle").style.fontSize="50px";
+}
+function  pos()
+{
+    document.getElementById("sicle").style.fontSize="30px";
+}
+</script>
+</body>
+
+</html>

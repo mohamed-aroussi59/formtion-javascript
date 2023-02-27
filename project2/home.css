@@ -1,0 +1,154 @@
+#crcle-a{
+    border: solid red 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+#crcle-a:hover{
+    border: solid rgb(8, 63, 241) 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+#trace1{
+    border: 3px red solid;
+    width: 200px;
+    position: absolute;
+    top: 31px;
+    left: 63px;
+}
+
+#crcle-b{
+    border: solid red 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 268px;
+}
+
+#crcle-b:hover{
+    border: solid rgb(8, 63, 241) 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 268px;
+}
+
+#trace2{
+    border: 3px red solid;
+    width: 200px;
+    position: absolute;
+    top: 31px;
+    left: 323px;
+}
+
+#crcle-c{
+    border: solid red 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 527px;
+}
+
+
+#crcle-c:hover{
+    border: solid rgb(24, 7, 255) 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 527px;
+}
+
+
+#trace3{
+    border: 3px red solid;
+    width: 200px;
+    position: absolute;
+    top: 31px;
+    left: 581px;
+}
+
+#crcle-d{
+    border: solid red 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 786px;
+}
+
+#crcle-d:hover{
+    border: solid rgb(0, 26, 255) 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 786px;
+}
+
+#trace4{
+    border: 3px red solid;
+    width: 200px;
+    position: absolute;
+    top: 31px;
+    left: 840px;
+}
+
+#crcle-e{
+    border: solid red 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1044px;
+    top: 7px;
+}
+
+#crcle-e:hover{
+    border: solid rgb(0, 47, 255) 3px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1044px;
+    top: 7px;
+}
+
+#titre1{
+    display: none;
+}
+
+#titre2{
+    display: none;
+    position: absolute;
+    left: 270px;
+}
+#titre3{
+    display: none;
+    position: absolute;
+    left: 530px;
+}
+
+#titre4{
+    display: none;
+    position: absolute;
+    left: 790px;
+}
+
+#titre5{
+    display: none;
+    position: absolute;
+    left: 1050px;
+}
